@@ -1,0 +1,49 @@
+<Project name="LibPurple" fileversion="2.0" language="C#" clr-version="Net_2_0" ctype="DotNetProject">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Debug" assemblyKeyFile="." assembly="libpurple-sharp" />
+      <Build debugmode="True" target="Library" />
+      <Execution runwithwarnings="True" consolepause="True" runtime="MsNet" clr-version="Net_2_0" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Release" assembly="libpurple-sharp" />
+      <Build debugmode="False" target="Library" />
+      <Execution runwithwarnings="True" consolepause="True" runtime="MsNet" clr-version="Net_2_0" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File name="PurpleAccount.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleAccounts.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleBase.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleBlist.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleBlistUiOps.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleBuddy.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConnection.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConnectionState.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConvChat.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConversation.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConversations.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConversationUiOps.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleConvIM.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleCore.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleCoreUiOps.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleEventLoop.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleEventLoopUiOps.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleMessageFlags.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurplePlugin.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurplePlugins.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleSavedStatus.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleServer.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleSignal.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleStatus.cs" subtype="Code" buildaction="Compile" />
+    <File name="PurpleTypingState.cs" subtype="Code" buildaction="Compile" />
+    <File name="GList.cs" subtype="Code" buildaction="Compile" />
+    <File name="GStrHashTable.cs" subtype="Code" buildaction="Compile" />
+  </Contents>
+  <References>
+    <ProjectReference type="Gac" localcopy="True" refto="glib-sharp, Version=2.10.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </References>
+  <Deployment.LinuxDeployData generateScript="False" />
+</Project>
