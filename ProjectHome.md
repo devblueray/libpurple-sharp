@@ -1,0 +1,1 @@
+.NET Bindings for libpurple a multiprotocol library.
